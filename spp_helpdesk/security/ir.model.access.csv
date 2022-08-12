@@ -1,0 +1,13 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+spp_helpdesk_ticket_team_support_person,Helpdesk Ticket Team Support Person Access,helpdesk_mgmt.model_helpdesk_ticket_team,spp_helpdesk.spp_support_person,1,1,0,0
+spp_helpdesk_ticket_support_person,Helpdesk Ticket Support Person Access,helpdesk_mgmt.model_helpdesk_ticket,spp_helpdesk.spp_support_person,1,1,0,0
+
+spp_helpdesk_ticket_admin,Helpdesk Ticket Admin Access,helpdesk_mgmt.model_helpdesk_ticket,g2p_registry_base.group_g2p_admin,1,1,1,1
+spp_helpdesk_ticket_team_admin,Helpdesk Ticket Team Admin Access,helpdesk_mgmt.model_helpdesk_ticket_team,g2p_registry_base.group_g2p_admin,1,1,1,1
+spp_helpdesk_ticket_categ_admin,Helpdesk Ticket Category Admin Access,helpdesk_mgmt.model_helpdesk_ticket_category,g2p_registry_base.group_g2p_admin,1,1,1,1
+spp_helpdesk_ticket_tag_admin,Helpdesk Ticket Tag Admin Access,helpdesk_mgmt.model_helpdesk_ticket_tag,g2p_registry_base.group_g2p_admin,1,1,1,1
+spp_helpdesk_ticket_stage_admin,Helpdesk Ticket Stage Admin Access,helpdesk_mgmt.model_helpdesk_ticket_stage,g2p_registry_base.group_g2p_admin,1,1,1,1
+spp_helpdesk_ticket_channel_admin,Helpdesk Ticket Channel Admin Access,helpdesk_mgmt.model_helpdesk_ticket_channel,g2p_registry_base.group_g2p_admin,1,1,1,1
+
+spp_helpdesk_ticket_program_manager, Helpdesk Ticket Program Manager Access,helpdesk_mgmt.model_helpdesk_ticket,g2p_programs.g2p_program_manager,1,1,1,0
+spp_helpdesk_ticket_registrar,Helpdesk Ticket Registrar Access,helpdesk_mgmt.model_helpdesk_ticket,g2p_registry_base.group_g2p_registrar,1,1,1,0

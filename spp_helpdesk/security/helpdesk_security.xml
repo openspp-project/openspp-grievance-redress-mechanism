@@ -1,0 +1,8 @@
+<odoo>
+    <data noupdate="0">
+        <record id="spp_support_person" model="res.groups">
+            <field name="name">Support Person</field>
+            <field name="category_id" ref="g2p_registry_base.newlogic_module" />
+        </record>
+    </data>
+</odoo>
