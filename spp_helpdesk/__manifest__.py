@@ -7,9 +7,11 @@
     "version": "15.0.0.0.1",
     "sequence": 3,
     "author": "OpenSPP.org",
-    "website": "https://openspp.org/",
+    "website": "https://github.com/openspp-project/openspp-grievance-redress-mechanism",
     "license": "AGPL-3",
     "depends": ["base", "helpdesk_mgmt", "g2p_registry_base", "g2p_programs"],
+    "development_status": "Beta",
+    "maintainers": ["jeremi", "gonzalesedwin1123"],
     "data": [
         "security/helpdesk_security.xml",
         "security/ir.model.access.csv",
