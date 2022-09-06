@@ -1,0 +1,94 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* spp_helpdesk
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: spp_helpdesk
+#: model_terms:ir.ui.view,arch_db:spp_helpdesk.view_groups_form
+msgid "<span class=\"o_stat_text\">Create</span>"
+msgstr ""
+
+#. module: spp_helpdesk
+#: model_terms:ir.ui.view,arch_db:spp_helpdesk.view_individuals_form
+msgid ""
+"<span class=\"o_stat_text\">Create</span>\n"
+"                              <span class=\"o_stat_text\">Ticket</span>"
+msgstr ""
+
+#. module: spp_helpdesk
+#: model:ir.model,name:spp_helpdesk.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: spp_helpdesk
+#: model_terms:ir.ui.view,arch_db:spp_helpdesk.view_cycle_membership_tree
+#: model_terms:ir.ui.view,arch_db:spp_helpdesk.view_program_membership_tree
+msgid "Create Ticket"
+msgstr ""
+
+#. module: spp_helpdesk
+#: model:ir.model.fields,field_description:spp_helpdesk.field_helpdesk_ticket__cycle_id
+#: model:ir.model.fields,field_description:spp_helpdesk.field_helpdesk_ticket__cycle_readonly_id
+#: model_terms:ir.ui.view,arch_db:spp_helpdesk.ticket_view_form
+msgid "Cycle"
+msgstr ""
+
+#. module: spp_helpdesk
+#: model:ir.model,name:spp_helpdesk.model_g2p_cycle_membership
+msgid "Cycle Membership"
+msgstr ""
+
+#. module: spp_helpdesk
+#: model:ir.model.fields,field_description:spp_helpdesk.field_helpdesk_ticket__group_id
+#: model:ir.model.fields,field_description:spp_helpdesk.field_helpdesk_ticket__group_readonly_id
+#: model:ir.model.fields,field_description:spp_helpdesk.field_helpdesk_ticket__is_group
+#: model_terms:ir.ui.view,arch_db:spp_helpdesk.ticket_view_form
+msgid "Group"
+msgstr ""
+
+#. module: spp_helpdesk
+#: model:ir.model,name:spp_helpdesk.model_helpdesk_ticket
+msgid "Helpdesk Ticket"
+msgstr ""
+
+#. module: spp_helpdesk
+#: model:ir.model.fields,field_description:spp_helpdesk.field_helpdesk_ticket__program_id
+#: model:ir.model.fields,field_description:spp_helpdesk.field_helpdesk_ticket__program_readonly_id
+#: model_terms:ir.ui.view,arch_db:spp_helpdesk.ticket_view_form
+msgid "Program"
+msgstr ""
+
+#. module: spp_helpdesk
+#: model:ir.model,name:spp_helpdesk.model_g2p_program_membership
+msgid "Program Membership"
+msgstr ""
+
+#. module: spp_helpdesk
+#: model:ir.model.fields,field_description:spp_helpdesk.field_helpdesk_ticket__partner_readonly_id
+#: model_terms:ir.ui.view,arch_db:spp_helpdesk.ticket_view_form
+#: model_terms:ir.ui.view,arch_db:spp_helpdesk.ticket_view_tree
+msgid "Registrant"
+msgstr ""
+
+#. module: spp_helpdesk
+#: model:res.groups,name:spp_helpdesk.spp_support_person
+msgid "Support Person"
+msgstr ""
+
+#. module: spp_helpdesk
+#: model:ir.model.fields,field_description:spp_helpdesk.field_res_partner__ticket_ids
+#: model:ir.model.fields,field_description:spp_helpdesk.field_res_users__ticket_ids
+#: model_terms:ir.ui.view,arch_db:spp_helpdesk.view_groups_form
+#: model_terms:ir.ui.view,arch_db:spp_helpdesk.view_individuals_form
+msgid "Tickets"
+msgstr ""
