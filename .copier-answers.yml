@@ -1,6 +1,6 @@
 # Do NOT update manually; changes here will be overwritten by Copier
 _commit: '2934565'
-_src_path: https://github.com/openspp-project/openspp-odoo-addons-repo-template.git
+_src_path: https://github.com/openspp/openspp-odoo-addons-repo-template.git
 ci: GitHub
 dependency_installation_mode: OCA
 generate_requirements_txt: true
@@ -19,7 +19,7 @@ repo_description: OpenSPP offers a complete and integrated solution for Grievanc
     better service and faster responses.
 repo_name: OpenSPP Grievance Redress Mechanism
 repo_slug: openspp-grievance-redress-mechanism
-repo_website: https://github.com/openspp-project/openspp-grievance-redress-mechanism
+repo_website: https://github.com/openspp/openspp-grievance-redress-mechanism
 travis_apt_packages: []
 travis_apt_sources: []
 

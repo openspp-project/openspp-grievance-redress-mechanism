@@ -7,7 +7,7 @@
     "version": "15.0.0.0.1",
     "sequence": 3,
     "author": "OpenSPP.org",
-    "website": "https://github.com/openspp-project/openspp-grievance-redress-mechanism",
+    "website": "https://github.com/openspp/openspp-grievance-redress-mechanism",
     "license": "AGPL-3",
     "depends": ["base", "helpdesk_mgmt", "g2p_registry_base", "g2p_programs"],
     "development_status": "Beta",
