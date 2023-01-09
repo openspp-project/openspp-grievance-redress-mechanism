@@ -2,8 +2,9 @@
 <!-- /!\ Non OCA Context : Set here the badge of your runbot / runboat instance. -->
 [![Pre-commit Status](https://github.com/openspp/openspp-grievance-redress-mechanism/actions/workflows/pre-commit.yml/badge.svg?branch=15.0)](https://github.com/openspp/openspp-grievance-redress-mechanism/actions/workflows/pre-commit.yml?query=branch%3A15.0)
 [![Build Status](https://github.com/openspp/openspp-grievance-redress-mechanism/actions/workflows/test.yml/badge.svg?branch=15.0)](https://github.com/openspp/openspp-grievance-redress-mechanism/actions/workflows/test.yml?query=branch%3A15.0)
-<!-- [![codecov](https://codecov.io/gh/openspp/openspp-grievance-redress-mechanism/branch/15.0/graph/badge.svg)](https://codecov.io/gh/openspp/openspp-grievance-redress-mechanism) -->
+[![codecov](https://codecov.io/gh/openspp/openspp-grievance-redress-mechanism/branch/15.0/graph/badge.svg)](https://codecov.io/gh/openspp/openspp-grievance-redress-mechanism)
 <!-- /!\ Non OCA Context : Set here the badge of your translation instance. -->
+[![Translation Status](https://translate.openspp.org/widgets/openspp/-/svg-badge.svg)](https://translate.openspp.org/engage/openspp/?utm_source=widget)
 
 <!-- /!\ do not modify above this line -->
 
