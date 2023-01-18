@@ -29,8 +29,8 @@ msgid ""
 "                              <span class=\"o_stat_text\">Ticket</span>"
 msgstr ""
 "<span class=\"o_stat_text\">Créer</span> \n"
-"                                             <span class=\"o_stat_text\""
-">Ticket</span>"
+"                                             <span class=\"o_stat_text"
+"\">Ticket</span>"
 
 #. module: spp_helpdesk
 #: model:ir.model,name:spp_helpdesk.model_res_partner
