@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
-    <data>
         <record id="view_program_membership_tree" model="ir.ui.view">
             <field name="name">view_program_membership_tree</field>
             <field name="model">g2p.program_membership</field>
@@ -17,5 +16,4 @@
                 </xpath>
             </field>
         </record>
-    </data>
 </odoo>
