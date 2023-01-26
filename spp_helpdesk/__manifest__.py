@@ -8,7 +8,7 @@
     "sequence": 3,
     "author": "OpenSPP.org",
     "website": "https://github.com/openspp/openspp-grievance-redress-mechanism",
-    "license": "AGPL-3",
+    "license": "Other OSI approved licence",
     "depends": ["base", "helpdesk_mgmt", "g2p_registry_base", "g2p_programs"],
     "development_status": "Beta",
     "maintainers": ["jeremi", "gonzalesedwin1123"],
