@@ -1,116 +1,116 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
-        <!-- Inherit Form View to Modify it -->
-        <record id="ticket_view_form" model="ir.ui.view">
-            <field name="name">ticket_view_form</field>
-            <field name="model">helpdesk.ticket</field>
-            <field name="inherit_id" ref="helpdesk_mgmt.ticket_view_form" />
-            <field name="arch" type="xml">
+    <!-- Inherit Form View to Modify it -->
+    <record id="ticket_view_form" model="ir.ui.view">
+        <field name="name">ticket_view_form</field>
+        <field name="model">helpdesk.ticket</field>
+        <field name="inherit_id" ref="helpdesk_mgmt.ticket_view_form" />
+        <field name="arch" type="xml">
 
-                <xpath expr="//field[@name='partner_name']" position="attributes">
-                    <attribute name="invisible">1</attribute>
-                </xpath>
-                <xpath expr="//field[@name='partner_id']" position="attributes">
-                    <attribute name="string">Registrant</attribute>
-                    <attribute
-                        name="options"
-                    >{'no_open':True, 'no_quick_create':True, 'no_edit':True,'no_create_edit':True, 'no_create':True}</attribute>
-                    <attribute name="class">oe_edit_only</attribute>
-                </xpath>
-                <xpath expr="//field[@name='partner_id']" position="after">
-                    <field name="is_group" invisible="1" />
-                    <field
-                        name="partner_readonly_id"
-                        attrs="{'invisible':[('is_group','=',False)]}"
-                        context="{'form_view_ref': 'g2p_registry_individual.view_individuals_form', 'create': False}"
-                        string="Registrant"
-                        class="oe_read_only"
-                        readonly="1"
-                    />
-                    <field
-                        name="partner_readonly_id"
-                        attrs="{'invisible':[('is_group','=',True)]}"
-                        context="{'form_view_ref': 'g2p_registry_group.view_groups_form', 'create': False}"
-                        string="Registrant"
-                        class="oe_read_only"
-                        readonly="1"
-                    />
-                    <field
-                        name="group_id"
-                        string="Group"
-                        attrs="{'invisible':[('is_group','=',True)]}"
-                        class="oe_edit_only"
-                        options="{'no_open':True, 'no_quick_create':True, 'no_edit':True, 'no_create_edit':True, 'no_create':True}"
-                    />
-                    <field
-                        name="group_readonly_id"
-                        string="Group"
-                        attrs="{'invisible':[('is_group','=',True)]}"
-                        context="{'create': False}"
-                        class="oe_read_only"
-                        readonly="1"
-                    />
-                    <field
-                        name="program_id"
-                        string="Program"
-                        class="oe_edit_only"
-                        options="{'no_open':True, 'no_quick_create':True, 'no_edit':True, 'no_create_edit':True, 'no_create':True}"
-                    />
-                    <field
-                        name="program_readonly_id"
-                        string="Program"
-                        context="{'create': False}"
-                        class="oe_read_only"
-                        readonly="1"
-                    />
-                    <field
-                        name="cycle_id"
-                        string="Cycle"
-                        class="oe_edit_only"
-                        options="{'no_open':True, 'no_quick_create':True, 'no_edit':True,'no_create_edit':True, 'no_create':True}"
-                    />
-                    <field
-                        name="cycle_readonly_id"
-                        string="Cycle"
-                        context="{'create': False}"
-                        class="oe_read_only"
-                        readonly="1"
-                    />
-                </xpath>
+            <xpath expr="//field[@name='partner_name']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='partner_id']" position="attributes">
+                <attribute name="string">Registrant</attribute>
+                <attribute
+                    name="options"
+                >{'no_open':True, 'no_quick_create':True, 'no_edit':True,'no_create_edit':True, 'no_create':True}</attribute>
+                <attribute name="class">oe_edit_only</attribute>
+            </xpath>
+            <xpath expr="//field[@name='partner_id']" position="after">
+                <field name="is_group" invisible="1" />
+                <field
+                    name="partner_readonly_id"
+                    attrs="{'invisible':[('is_group','=',False)]}"
+                    context="{'form_view_ref': 'g2p_registry_individual.view_individuals_form', 'create': False}"
+                    string="Registrant"
+                    class="oe_read_only"
+                    readonly="1"
+                />
+                <field
+                    name="partner_readonly_id"
+                    attrs="{'invisible':[('is_group','=',True)]}"
+                    context="{'form_view_ref': 'g2p_registry_group.view_groups_form', 'create': False}"
+                    string="Registrant"
+                    class="oe_read_only"
+                    readonly="1"
+                />
+                <field
+                    name="group_id"
+                    string="Group"
+                    attrs="{'invisible':[('is_group','=',True)]}"
+                    class="oe_edit_only"
+                    options="{'no_open':True, 'no_quick_create':True, 'no_edit':True, 'no_create_edit':True, 'no_create':True}"
+                />
+                <field
+                    name="group_readonly_id"
+                    string="Group"
+                    attrs="{'invisible':[('is_group','=',True)]}"
+                    context="{'create': False}"
+                    class="oe_read_only"
+                    readonly="1"
+                />
+                <field
+                    name="program_id"
+                    string="Program"
+                    class="oe_edit_only"
+                    options="{'no_open':True, 'no_quick_create':True, 'no_edit':True, 'no_create_edit':True, 'no_create':True}"
+                />
+                <field
+                    name="program_readonly_id"
+                    string="Program"
+                    context="{'create': False}"
+                    class="oe_read_only"
+                    readonly="1"
+                />
+                <field
+                    name="cycle_id"
+                    string="Cycle"
+                    class="oe_edit_only"
+                    options="{'no_open':True, 'no_quick_create':True, 'no_edit':True,'no_create_edit':True, 'no_create':True}"
+                />
+                <field
+                    name="cycle_readonly_id"
+                    string="Cycle"
+                    context="{'create': False}"
+                    class="oe_read_only"
+                    readonly="1"
+                />
+            </xpath>
 
-            </field>
-        </record>
+        </field>
+    </record>
 
-        <!-- Inherit Tree View to Modify it -->
-        <record id="ticket_view_tree" model="ir.ui.view">
-            <field name="name">ticket_view_tree</field>
-            <field name="model">helpdesk.ticket</field>
-            <field name="inherit_id" ref="helpdesk_mgmt.ticket_view_tree" />
-            <field name="arch" type="xml">
+    <!-- Inherit Tree View to Modify it -->
+    <record id="ticket_view_tree" model="ir.ui.view">
+        <field name="name">ticket_view_tree</field>
+        <field name="model">helpdesk.ticket</field>
+        <field name="inherit_id" ref="helpdesk_mgmt.ticket_view_tree" />
+        <field name="arch" type="xml">
 
-                <xpath expr="//field[@name='partner_name']" position="attributes">
-                    <attribute name="invisible">1</attribute>
-                </xpath>
-                <xpath expr="//field[@name='partner_name']" position="after">
-                    <field name="partner_id" string="Registrant" />
-                </xpath>
+            <xpath expr="//field[@name='partner_name']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='partner_name']" position="after">
+                <field name="partner_id" string="Registrant" />
+            </xpath>
 
-            </field>
-        </record>
+        </field>
+    </record>
 
-        <record id="helpdesk_mgmt.helpdesk_ticket_main_menu" model="ir.ui.menu">
-            <field
-                name="groups_id"
-                eval="[(4,ref('spp_helpdesk.spp_support_person')), (4,ref('g2p_registry_base.group_g2p_admin'))]"
-            />
-        </record>
+    <record id="helpdesk_mgmt.helpdesk_ticket_main_menu" model="ir.ui.menu">
+        <field
+            name="groups_id"
+            eval="[(4,ref('spp_helpdesk.spp_support_person')), (4,ref('g2p_registry_base.group_g2p_admin'))]"
+        />
+    </record>
 
-        <record id="helpdesk_mgmt.helpdesk_ticket_reporting_menu" model="ir.ui.menu">
-            <field name="groups_id" eval="[(4,ref('g2p_registry_base.group_g2p_admin'))]" />
-        </record>
+    <record id="helpdesk_mgmt.helpdesk_ticket_reporting_menu" model="ir.ui.menu">
+        <field name="groups_id" eval="[(4,ref('g2p_registry_base.group_g2p_admin'))]" />
+    </record>
 
-        <record id="helpdesk_mgmt.helpdesk_ticket_config_main_menu" model="ir.ui.menu">
-            <field name="groups_id" eval="[(4,ref('g2p_registry_base.group_g2p_admin'))]" />
-        </record>
+    <record id="helpdesk_mgmt.helpdesk_ticket_config_main_menu" model="ir.ui.menu">
+        <field name="groups_id" eval="[(4,ref('g2p_registry_base.group_g2p_admin'))]" />
+    </record>
 
 </odoo>
