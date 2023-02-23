@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-02-23 01:30+0000\n"
+"PO-Revision-Date: 2023-02-24 02:22+0000\n"
 "Last-Translator: Ammar ALBAYATI <ammar.albayati@wfp.org>\n"
 "Language-Team: Arabic <https://translate.openspp.org/projects/openspp/"
 "spp_helpdesk/ar/>\n"
@@ -83,7 +83,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:spp_helpdesk.ticket_view_form
 #: model_terms:ir.ui.view,arch_db:spp_helpdesk.ticket_view_tree
 msgid "Registrant"
-msgstr ""
+msgstr "المسجل"
 
 #. module: spp_helpdesk
 #: model:res.groups,name:spp_helpdesk.spp_support_person
