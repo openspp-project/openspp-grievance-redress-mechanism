@@ -4,7 +4,7 @@
 {
     "name": "OpenSPP Helpdesk System",
     "category": "OpenSPP",
-    "version": "15.0.0.0.0",
+    "version": "15.0.1.0.16",
     "sequence": 3,
     "author": "OpenSPP.org",
     "website": "https://github.com/openspp/openspp-grievance-redress-mechanism",
