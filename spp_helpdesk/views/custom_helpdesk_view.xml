@@ -23,7 +23,7 @@
                     <field name="is_group" invisible="1" />
                     <field
                         name="partner_readonly_id"
-                        attrs="{'invisible':[('is_group','=',False)]}"
+                        invisible="not is_group"
                         context="{'form_view_ref': 'g2p_registry_individual.view_individuals_form', 'create': False}"
                         string="Registrant"
                         class="oe_read_only"
@@ -31,7 +31,7 @@
                     />
                     <field
                         name="partner_readonly_id"
-                        attrs="{'invisible':[('is_group','=',True)]}"
+                        invisible="is_group"
                         context="{'form_view_ref': 'g2p_registry_group.view_groups_form', 'create': False}"
                         string="Registrant"
                         class="oe_read_only"
@@ -40,14 +40,14 @@
                     <field
                         name="group_id"
                         string="Group"
-                        attrs="{'invisible':[('is_group','=',True)]}"
+                        invisible="is_group"
                         class="oe_edit_only"
                         options="{'no_open':True, 'no_quick_create':True, 'no_edit':True, 'no_create_edit':True, 'no_create':True}"
                     />
                     <field
                         name="group_readonly_id"
                         string="Group"
-                        attrs="{'invisible':[('is_group','=',True)]}"
+                        invisible="is_group"
                         context="{'create': False}"
                         class="oe_read_only"
                         readonly="1"
